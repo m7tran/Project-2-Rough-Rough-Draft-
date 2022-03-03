@@ -1,0 +1,17 @@
+---
+title: "Project 2 Rough Rough Draft"
+output: html_notebook
+---
+
+Scientific Question: Is it possible that the black Perigord truffle (Tuber melanosporum) and the Chinese black truffle  (Tuber indicum) share similar protein expression profiles responsible for the production of the aromatic flavors?
+
+Scientific Hypothesis: If the black Perigord truffle and the Chinese black truffle share similar protein expression profiles for their aromatic flavors, then volatiles and enzymes such as 2 methylbutane can be matched to the proteins obtained from these two truffles.
+
+```{r}
+library(seqinr)
+T_melanosporum <- read.fasta(file = "Tuber_Melanosporum.fasta")
+T_indicum <- read.fasta(file = "Tuber_Indicum.fasta")
+```
+
+
+
